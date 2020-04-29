@@ -6,14 +6,14 @@ const DefaultPost= (props) => {
   return  (
     
       <div className={s.item}>
-        <img src = 'https://sun9-23.userapi.com/c630626/v630626922/208be/Nu8J2XFkmxc.jpg' />
+        img src = 'https://sun9-23.userapi.com/c630626/v630626922/208be/Nu8J2XFkmxc.jpg' />
         {props.message}
         
         <div> 
           <span>{props.likes}</span>
         </div>
        
-         </div>
+         </div
       
         )
           }
